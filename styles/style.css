@@ -1,0 +1,347 @@
+/* Navbar Styles */
+.header{
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.89), rgb(0, 0, 0) 100%);
+    padding: 0px 150px;}
+
+.logo{
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.nav-links{
+    border: 0.5px solid rgb(37, 36, 36);
+    border-radius: 50px;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links ul li{
+    padding: 7px 20px;
+    border-radius: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.active{
+    background-color: var(--primary-color);
+}
+
+.nav-links ul li:hover{
+    background-color: var(--primary-color);
+    transition: 0.5s;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    line-height: 80px;
+}
+
+.miama{
+    font-family: "Miama", sans-serif;
+    font-size: 8.5rem;
+    font-weight: 400;
+}
+
+.banner .title-description{
+    margin-bottom:25px ;
+}
+
+.banner-btn{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 36px;
+    background-color: rgba(26, 24, 24, 0.651);
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 20px;
+    transition: 1s;
+}
+
+.banner-btn:hover{
+    background-color: var(--primary-color);
+}
+
+.primary-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 1s;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner .card-one{
+    padding: 20px 15px;
+    display:flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(1rem);
+    border-radius: 10px;
+    position: absolute;
+    top: 510px;
+    right:400px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    height: fit-content;
+}
+
+.card-one .text h5{
+    font-size:1.5rem;
+    font-weight: 600;
+}
+
+.card-two h5{
+    padding-top: 20px;
+    font-size: 2.12rem;
+}
+
+.card-two p{
+    margin-top: 0px;
+}
+
+.banner .card-two{
+    padding: 20px;
+    color: white;
+    align-items: center;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(1rem);
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    right:90px;
+}
+
+
+/* styles of change habits section */
+.change-habits{
+    padding-top: 80px;
+}
+
+.habits{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+.habit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.habit img{
+    border-radius: 50%;
+}
+
+.habit h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* styles of running section*/
+.running{
+    background-color: black;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(24, 23, 23);
+    border-radius: 20px;
+}
+
+.text-container p{
+    margin-bottom: 30px;
+}
+
+.text-container .primary-btn{
+    padding: 14px 56px;
+}
+
+
+/* styles of bmi-calculator section */
+.bmi-heading{
+    background-color: black;
+    padding: 70px 0px 70px 300px;
+}
+
+.bmi-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 40px 150px;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.8rem;
+}
+
+table,tr,th, td{
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.129);
+}
+
+th, td{
+    padding: 12px 22px;
+    text-align: left;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.329);
+    font-size: 14px;
+}
+
+th{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+tr:hover{
+    background-color: black;
+}
+
+.bmi-input-area h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.bmi-input-area p{
+    margin-bottom: 2rem;
+}
+
+.inputs input, select{
+    width: 100%;
+}
+
+.inputs input, select{
+    padding: 16px 10px;
+    background-color: rgba(77, 75, 75, 0.685);
+    border: none;
+    outline: none;
+    gap: 20px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.432);
+    padding: 0px 10px;
+}
+
+.bmi-input-area .primary-btn{
+    padding: 14px 60px;
+    margin-top: 15px;
+}
+
+select{
+    color: rgba(255, 255, 255, 0.329);
+}
+
+/* start exclusive styles of footer section */
+.footer-section{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.footer{
+    padding: 50px 150px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.footer .logo{
+    margin-bottom: 30px;
+    font-size: 4rem ;
+    font-weight: 800;
+}
+
+.half-width ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.half-width ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.473);
+    font-weight: 100px;
+}
+
+.half-width ul li a:hover{
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.footer-links{
+    justify-content: space-between;
+    padding-top:30px;
+}
+
+.footer-links{
+    width: 50%;
+}
+
+.half-width h5{
+    font-size: 2rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin: 0px 150px; 
+    padding: 30px 0px; 
+    font-size: 22px;
+    color:rgba(255, 255, 255, 0.411);
+    border-top: 1px solid rgba(255, 255, 255, 0.329) ;
+}
+
+
+
+
+
+

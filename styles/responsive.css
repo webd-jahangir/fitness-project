@@ -1,0 +1,335 @@
+/* responsive for large mobile device */
+@media only screen and (max-width:576px) {
+   .section-title{
+        font-size: 2rem;
+    }
+
+    .header,
+    .change-habits,
+    .running,
+    .bmi-heading,
+    .bmi-container{
+        padding: 0px 20px;
+    }
+    /* styles of hero section */
+    .banner h1{
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+
+    .banner .miama{
+        font-size: 5.5rem;
+        font-weight: 400;
+    }
+
+    .logo{
+        font-size: 1.4rem; 
+    }
+    
+    .nav-links{
+        display: none;
+    }
+    
+    .banner,
+    .container,
+    .bmi-container,
+    .footer,
+    .footer-links{
+        flex-direction: column;
+    }
+
+    .banner-title{
+        margin-top: 50px;
+    }
+    
+    .banner p br{
+        display: none;
+    }
+
+    .primary-btn{
+        font-size: 16px;
+        font-weight: 300;
+        padding: 14px 22px;
+        border-radius: 50px;
+    }
+
+    .banner-btn{
+        font-size: 16px;
+        font-weight: 300;
+        padding: 13px 22px;
+        margin-left: 5px;
+    }
+
+    .banner .card-one{
+        display: flex;
+        padding: 5px;
+        background-color:black;
+        border-radius: 4px;
+        width: 12%;
+        position: absolute;
+        top: 510px;
+        right:200px;
+    }
+     
+    .card-two h5{
+        font-size: 2rem;
+        margin-bottom: 3px;
+    }
+    .card-one h5{
+        font-size: 1.8rem;
+        margin-bottom: 3px;
+    }
+
+    .card-one p, .card-two p{
+        font-size: 12px;
+    }
+    
+    .banner .card-two{
+        padding: 10px 20px;
+        background-color:black;
+        border-radius: 10px;
+        width:fit-content;
+        position: absolute;
+        top: 620px;
+        right:30px;
+    }
+
+    .banner .card-one{
+        display: flex;
+        padding: 10px 20px;
+        background-color:black;
+        border-radius: 10px;
+        width:fit-content;
+        position: absolute;
+        top: 910px;
+        right:250px;
+    }
+
+/* styles of change habits */
+.change-habits{
+    padding-top:40px;
+}
+
+.habits{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    margin-top: 20px;
+}
+.change-habits>p br{
+    display: none;
+}
+
+/* styles of running section */
+.container{
+    margin: 0px;
+}
+.image-container{
+    margin-top: 30px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 80%;
+}
+
+.text-container{
+    padding-left: 0px;
+}
+
+.text-container p br, .footer p br{
+    display: none;
+}
+
+.text-container .primary-btn{
+    padding: 14px 40px;
+}
+
+.text-container .section-title{
+    line-height: 40px;
+}
+
+.bmi-container{
+    padding-bottom:50px;
+}
+
+.bmi-heading h2, .chart h4, .bmi-input-area h4{
+    padding-top: 50px;
+}
+
+.bmi-heading p{
+    padding-bottom: 30px;
+}
+
+.footer{
+    padding: 20px;
+}
+
+.copyright{
+    margin: 0px 20px;  
+}
+
+.half-width{
+    margin-bottom: 30px;
+}
+}
+
+
+
+
+
+
+/* Responsive styles for tablet */
+@media only screen and (min-width:576px) and (max-width: 992px){
+    .header,
+    .change-habits,
+    .running,
+    .bmi-heading,
+    .bmi-container{
+        padding: 0px 50px;
+    }
+
+   .section-title{
+        font-size: 2.5rem;
+    }
+
+  
+    /* styles of hero section */
+    .banner h1{
+        font-size: 2.5rem;
+        line-height: 60px;
+    }
+
+    .banner .miama{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .logo{
+        font-size: 1.8rem; 
+    }
+    
+    .hide-for-tablet{
+        display: none;
+    }
+
+    .container,
+    .bmi-container,
+    .footer{
+        flex-direction: column;
+    }
+
+    .banner-title{
+        margin-top: 50px;
+    }
+    
+    .banner p br{
+        display: none;
+    }
+
+    .banner-btn{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    
+.banner .card-one{
+    display: flex;
+    padding: 15px;
+    background-color:black;
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 510px;
+    right:200px;
+}
+
+.card-one h5{
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.card-two h5{
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.banner .card-two{
+    padding: 15px;
+    background-color:black;
+    border-radius: 10px;
+    width:12%;
+    position: absolute;
+    top: 200px;
+    right:90px;
+}
+
+
+/* styles of change habits */
+.change-habits{
+    padding-top:40px;
+}
+
+.habits{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    margin-top: 20px;
+}
+.change-habits>p br{
+    display: none;
+}
+
+/* styles of running section */
+.container{
+    margin: 0px;
+}
+.image-container{
+    margin-top: 30px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 80%;
+}
+
+.text-container{
+    padding-left: 0px;
+}
+
+.text-container p br, .footer p br{
+    display: none;
+}
+
+/* .text-container .primary-btn{
+    padding: 14px 40px;
+} */
+
+.text-container .section-title{
+    line-height: 40px;
+}
+
+.bmi-container{
+    padding-bottom:50px;
+}
+
+.bmi-heading h2, .chart h4, .bmi-input-area h4{
+    padding-top: 50px;
+}
+
+.bmi-heading p{
+    padding-bottom: 30px;
+}
+
+.footer{
+    padding: 20px;
+}
+
+.copyright{
+    margin: 0px 20px;  
+}
+
+.half-width{
+    margin-bottom: 30px;
+}
+
+}
