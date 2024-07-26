@@ -1,5 +1,9 @@
 /* responsive for large mobile device */
 @media only screen and (max-width:576px) {
+    *{
+        box-sizing: border-box;
+    }
+
    .section-title{
         font-size: 2rem;
     }
@@ -122,18 +126,29 @@
 /* styles of running section */
 .container{
     margin: 0px;
-}
-.image-container{
-    margin-top: 30px;
+    gap: 0px;
 }
 
-.image-container img{
+.img-container-dsk{
+    display: none;
+}
+
+
+.running .img-container-m img{
     width: 100%;
-    height: 80%;
+    border-radius: 20px;
+}
+
+.running .img-container-m{
+    display:block;
+}
+
+.img-container {
+    padding: 10px;
 }
 
 .text-container{
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 .text-container p br, .footer p br{

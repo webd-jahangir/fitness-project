@@ -30,7 +30,7 @@ nav{
 }
 
 .nav-links ul li{
-    padding: 7px 20px;
+    padding: 8px 20px;
     border-radius: 40px;
 }
 
@@ -125,7 +125,6 @@ nav ul li a{
 }
 
 .card-two h5{
-    padding-top: 20px;
     font-size: 2.12rem;
 }
 
@@ -181,15 +180,26 @@ nav ul li a{
 }
 
 /* styles of running section*/
+
 .running{
     background-color: black;
 }
 
+.img-container-m{
+    display: none;
+}
+
 .container{
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    gap: 150px;
     background-color: rgb(24, 23, 23);
+    margin-right: 0px;
+    padding-right: 0px;
     border-radius: 20px;
+}
+
+.text-container{
+    padding: 40px;
 }
 
 .text-container p{
@@ -200,11 +210,20 @@ nav ul li a{
     padding: 14px 56px;
 }
 
+.img-container-dsk{
+    padding: 20px;
+}
+
+.img-container-dsk img{
+    width: 360px;
+    overflow: hidden;
+    border-radius: 20px;
+}
 
 /* styles of bmi-calculator section */
 .bmi-heading{
     background-color: black;
-    padding: 70px 0px 70px 300px;
+    padding: 70px 0px 70px 300px;                                             
 }
 
 .bmi-container{
@@ -237,7 +256,8 @@ td{
 
 th{
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 200;
+
 }
 
 tr:hover{
@@ -272,7 +292,7 @@ tr:hover{
 
 ::placeholder{
     color: rgba(255, 255, 255, 0.432);
-    padding: 0px 10px;
+    padding: 0px 16px;
 }
 
 .bmi-input-area .primary-btn{
@@ -284,6 +304,29 @@ select{
     color: rgba(255, 255, 255, 0.329);
 }
 
+select:optional{
+    padding-left: 22px;
+}
+
+
+
+/* style of location section */
+.location{
+    padding: 120px 150px 100px 150px;
+    background-color: black;
+    text-align: center;
+}
+
+.location p{
+    margin-bottom: 30px;
+}
+
+.location h2{
+    line-height: 0%;
+    margin-bottom: 40px;
+}
+
+
 /* start exclusive styles of footer section */
 .footer-section{
     background-color: rgba(0, 0, 0, 0.89);
@@ -291,7 +334,6 @@ select{
 
 .footer{
     padding: 50px 150px;
-    margin-top: 50px;
     justify-content: space-between;
 }
 
@@ -314,7 +356,7 @@ select{
 }
 
 .half-width ul li a:hover{
-    color: rgba(255, 255, 255, 0.719);
+    color: rgba(255, 255, 255, 0.849);
 }
 
 .footer-links{
