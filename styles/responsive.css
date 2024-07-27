@@ -175,6 +175,48 @@
     padding-bottom: 30px;
 }
 
+/* .styles for benefits section */
+
+.benefits{
+    padding:50px 0px 30px 30px;
+}
+
+.benefits-container{
+    display: block;
+}
+
+.benefits h2{
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    line-height: 38px;
+}
+
+.benefits h2 br{
+    display: none;
+}
+
+.benefits p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.bi-check{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.scnd-container{
+    margin-top: 0px
+}
+
+
+/* styles of location section */
+.location{
+    padding: 80px 20px 40px 20px;
+}
+
+
+/* styles of footer section */
 .footer{
     padding: 20px;
 }

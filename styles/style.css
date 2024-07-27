@@ -230,7 +230,7 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.89);
-    padding: 40px 150px;
+    padding: 70px 150px 50px 150px;
 }
 
 h4{
@@ -308,12 +308,44 @@ select:optional{
     padding-left: 22px;
 }
 
+/* styles of benefits section */
+.benefits{
+    padding: 100px 150px;
+    background-color: black;
+}
 
+.benefits-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 150px;
+    justify-content: space-between;
+    
+}
+
+.scnd-container{
+    margin-top: 40px
+}
+
+.benefits h2{
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.benefits p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bi-check{
+    font-size: 23px;
+    color: var(--primary-color);
+}
 
 /* style of location section */
 .location{
-    padding: 120px 150px 100px 150px;
-    background-color: black;
+    padding: 100px 150px 70px 150px;
+    background-color: rgba(0, 0, 0, 0.753);
     text-align: center;
 }
 
