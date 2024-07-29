@@ -8,6 +8,10 @@
     font-size: 2rem;
 }
 
+.menu-button{
+    display: none;
+}
+
 nav ul{
     list-style: none;
 }
@@ -76,12 +80,12 @@ nav ul li a{
 .banner-btn{
     font-size: 18px;
     font-weight: 400;
-    padding: 14px 36px;
+    padding: 14px 28px;
     background-color: rgba(26, 24, 24, 0.651);
     border-radius: 50px;
     border: 1px solid white;
     color: white;
-    margin-left: 20px;
+    margin-left: 10px;
     transition: 1s;
 }
 
@@ -308,6 +312,99 @@ select:optional{
     padding-left: 22px;
 }
 
+/* styles for pricing plan */
+.pricing-plan{
+    color: black;
+}
+.plan{
+    padding: 40px 30px 40px 30px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 4px 0px 4px 16px rgba(12, 12, 12, 0.712);
+}
+
+.pricing-plan .heading{
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.pricing-plan h2{
+    line-height: 30px;
+    color: white;
+}
+
+.pricing-plan h5{
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.amount-time{
+    display: flex;
+    justify-content: center;
+}
+
+.plan p{
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.price-plans{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.dollar-sign{
+    color: var(--primary-color);
+    font-size: 25px;
+    position: absolute;
+}
+
+.amount{
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.basic-amount{
+    margin-left: 10px;
+}
+
+.time-priod{
+    font-size: 18px;
+    color: #352f2fe3;
+    font-weight: 400;
+}
+
+.amount-time{
+    margin: 20px 0 30px 0;
+}
+
+.price-plans .primary-btn{
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 300;
+    display: grid;
+    margin-left: 44px;
+    border-radius: 5px;
+}
+
+.price-plans .primary-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.plan p{
+    line-height: 30px;
+}
+
+
+.feature{
+    margin-left: 30px;
+}
+
 /* styles of benefits section */
 .benefits{
     padding: 100px 150px;
@@ -337,15 +434,71 @@ select:optional{
     line-height: 30px;
 }
 
-.bi-check{
-    font-size: 23px;
+.bi-x-circle{
+    color: red;
+}
+
+.bi-check-circle{
+    color:green;
+}
+/* impressive style for testimonial section */
+.testimonial-section{
+    padding: 80px 150px;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.testimonial-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.testimonial-section img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.testimonial-section h6{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(184, 173, 173);
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bi-quote{
+    font-size: 50px;
     color: var(--primary-color);
+    text-align: center;
+}
+
+.quote{
+    margin:20px 0px 50px 0px;
+}
+
+.quote-one{
+    margin-bottom:88px;
+}
+
+.testimonial{
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* style of location section */
 .location{
     padding: 100px 150px 70px 150px;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: black;
     text-align: center;
 }
 
@@ -381,14 +534,14 @@ select:optional{
 }
 
 .half-width ul li a{
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.473);
+    color: rgba(255, 255, 255, 0.507);
     font-weight: 100px;
 }
 
 .half-width ul li a:hover{
-    color: rgba(255, 255, 255, 0.849);
+    color: white;
 }
 
 .footer-links{

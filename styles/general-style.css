@@ -15,13 +15,15 @@ body{
     color: white;
 }
 
-.change-habits, .running{
+.change-habits, .running, .pricing-plan{
     padding: 0px 150px;
     background-color: black;
 }
 
 :root{
-    --primary-color:rgb(230, 83, 60)
+    --primary-color:rgb(230, 83, 60);
+    --paragraph:rgba(0, 0, 0, 0.89);
+
 }
 
 p{
