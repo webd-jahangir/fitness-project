@@ -5,7 +5,7 @@
 
 .logo{
     color: var(--primary-color);
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .menu-button{
@@ -41,8 +41,8 @@ nav{
 nav ul li a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.849);
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .active{
@@ -60,8 +60,8 @@ nav ul li a{
     justify-content: space-between;
 }
 .banner-title{
-    font-size: 4.5rem;
-    font-weight: 800;
+    font-size: 4.87rem;
+    font-weight: 900;
     margin-top: 100px;
     margin-bottom: 40px;
     line-height: 80px;
@@ -129,7 +129,7 @@ nav ul li a{
 }
 
 .card-two h5{
-    font-size: 2.12rem;
+    font-size: 2.5rem;
 }
 
 .card-two p{
@@ -196,7 +196,7 @@ nav ul li a{
 .container{
     display: flex;
     gap: 150px;
-    background-color: rgb(24, 23, 23);
+    background-color:var(--secondary-bg);
     margin-right: 0px;
     padding-right: 0px;
     border-radius: 20px;
@@ -233,13 +233,13 @@ nav ul li a{
 .bmi-container{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.89);
+    background-color:var(--secondary-bg);
     padding: 70px 150px 50px 150px;
 }
 
 h4{
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.75rem;
+    font-weight: 900;
     margin-bottom: 2.8rem;
 }
 
@@ -249,7 +249,7 @@ table,tr,th, td{
 }
 
 th, td{
-    padding: 12px 22px;
+    padding: 12px 20px;
     text-align: left;
 }
 
@@ -269,8 +269,6 @@ tr:hover{
 }
 
 .bmi-input-area h4{
-    font-size: 2rem;
-    font-weight: 700;
     margin-bottom: 1rem;
 }
 
@@ -284,7 +282,7 @@ tr:hover{
 
 .inputs input, select{
     padding: 16px 10px;
-    background-color: rgba(77, 75, 75, 0.685);
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
     outline: none;
     gap: 20px;
@@ -312,19 +310,93 @@ select:optional{
     padding-left: 22px;
 }
 
+
+/* styles of Meet our team section */
+.our-team{
+    padding: 80px 150px;
+    background-color: black;
+}
+
+.our-team .heading{
+    margin-bottom: 50px;
+}
+
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--secondary-bg);
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;  
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    width:100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.member h6{
+    font-size: 20px;
+}
+
+.our-team .member h6{
+    padding-left: 30px;
+}
+
+.member p{
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+ .team-members .one{
+    background-image: url(../images/trainer1.png);
+    border-radius: 20px;
+}
+.team-members .two{
+    background-image: url(../images/trainer2.png);
+    border-radius: 20px;
+}
+.team-members .three{
+    background-image: url(../images/trainer3.png);
+    border-radius: 20px;
+}
+.team-members .four{
+    background-image: url(../images/trainer4.png);
+    border-radius: 20px;
+
+}
+.team-members .five{
+    background-image: url(../images/trainer5.png);
+    border-radius: 20px;
+}
+.team-members .six{
+    background-image: url(../images/trainer6.png);
+    border-radius: 20px;
+} 
+
 /* styles for pricing plan */
 .pricing-plan{
+    padding: 90px 150px;
+    background-color: var(--secondary-bg);
     color: black;
 }
+
 .plan{
-    padding: 40px 30px 40px 30px;
+    padding:40px;
     background-color:white;
     border-radius: 5px;
-    box-shadow: 4px 0px 4px 16px rgba(12, 12, 12, 0.712);
+    box-shadow: 4px 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .pricing-plan .heading{
-    padding: 60px 0px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -335,17 +407,16 @@ select:optional{
 
 .pricing-plan h5{
     font-size: 22px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .amount-time{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .plan p{
     color: rgba(0, 0, 0, 0.89);
+    line-height: 30px;
 }
 
 .price-plans{
@@ -365,16 +436,16 @@ select:optional{
     font-size: 3.5rem;
     color: var(--primary-color);
     font-weight: bold;
-    margin-left: 16px;
+    padding-left: 17px;
 }
 
 .basic-amount{
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 .time-priod{
     font-size: 18px;
-    color: #352f2fe3;
+    color: black;
     font-weight: 400;
 }
 
@@ -383,12 +454,15 @@ select:optional{
 }
 
 .price-plans .primary-btn{
-    font-size: 16px;
-    margin-top: 30px;
-    font-weight: 300;
+    font-weight: 400;
     display: grid;
-    margin-left: 44px;
     border-radius: 5px;
+    margin: 0px auto;
+}
+
+.feature{
+    margin-bottom: 30px;
+    padding-left: 20px;
 }
 
 .price-plans .primary-btn:hover{
@@ -396,18 +470,35 @@ select:optional{
     color: white;
 }
 
-.plan p{
-    line-height: 30px;
+.price-plans .active{
+    background-color: var(--primary-color);
+    color: white;
 }
 
 
-.feature{
-    margin-left: 30px;
+.active .primary-btn{
+    background-color: black;
+    color: white;
 }
+
+
+.active .amount,
+.active .dollar-sign,
+
+.active .bi-check-circle
+{
+    color: white;
+}
+
+.active .time-priod,
+.active .feature p{
+    color: rgba(255, 255, 255, 0.815);
+}
+
 
 /* styles of benefits section */
 .benefits{
-    padding: 100px 150px;
+    padding: 80px 150px;
     background-color: black;
 }
 
@@ -415,7 +506,6 @@ select:optional{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    row-gap: 150px;
     justify-content: space-between;
     
 }
@@ -425,12 +515,11 @@ select:optional{
 }
 
 .benefits h2{
-    margin-bottom: 50px;
-    padding-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .benefits p{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -444,7 +533,7 @@ select:optional{
 /* impressive style for testimonial section */
 .testimonial-section{
     padding: 80px 150px;
-    background-color: rgba(0, 0, 0, 0.89);
+    background-color: var(--secondary-bg);
 }
 
 .testimonial-section h2{
@@ -462,8 +551,8 @@ select:optional{
 .testimonial-section h6{
     font-size: 20px;
     margin-top: 10px;
-    font-weight: 500;
-    color: rgb(184, 173, 173);
+    font-weight: 600;
+    color: rgb(224, 214, 214);
 }
 
 .testimonials{
@@ -511,6 +600,9 @@ select:optional{
     margin-bottom: 40px;
 }
 
+.location br{
+    display: none;
+}
 
 /* start exclusive styles of footer section */
 .footer-section{
@@ -524,7 +616,7 @@ select:optional{
 
 .footer .logo{
     margin-bottom: 30px;
-    font-size: 4rem ;
+    font-size: 4.37rem ;
     font-weight: 800;
 }
 
@@ -534,10 +626,11 @@ select:optional{
 }
 
 .half-width ul li a{
-    font-size: 20px;
+    font-size: 23px;
+
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.507);
-    font-weight: 100px;
+    color:  rgba(255, 255, 255, 0.5);
+    font-weight: 400px;
 }
 
 .half-width ul li a:hover{

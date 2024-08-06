@@ -188,14 +188,33 @@
 }
 
 
+/* styles of Meet our team section */
+.our-team{
+    padding: 20px;
+}
 
+.our-team .heading{
+    margin: 40px auto;
+}
 
+.our-team .heading h2{
+    line-height: 20px;
+}
+
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 
 /* styles for pricing plan */
 .price-plans{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     border-radius: 10px;
+}
+
+.pricing-plan h2{
+    padding-top: 50px;
 }
 
 /* .styles for benefits section */
@@ -283,6 +302,14 @@
 /* styles of location section */
 .location{
     padding: 80px 20px 40px 20px;
+}
+
+.location br{
+    display: block;
+}
+
+.location .section-title{
+    margin-bottom: 30px;
 }
 
 

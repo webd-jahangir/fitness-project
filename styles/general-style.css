@@ -15,27 +15,27 @@ body{
     color: white;
 }
 
-.change-habits, .running, .pricing-plan{
+.change-habits, .running{
     padding: 0px 150px;
     background-color: black;
 }
 
 :root{
     --primary-color:rgb(230, 83, 60);
-    --paragraph:rgba(0, 0, 0, 0.89);
-
+    --paragraph:rgba(255, 255, 255, 0.5);
+    --secondary-bg: rgb(34, 34, 34);
 }
 
 p{
-    color: rgba(255, 255, 255, 0.329);
+    color: var(--paragraph);
     width: 100%;
     line-height: 20px;
 }
 
 .primary-btn{
     font-size: 18px;
-    font-weight: 400;
-    padding: 14px 36px;
+    font-weight: 600;
+    padding: 16px 40px;
     background-color: var(--primary-color);
     border-radius: 50px;
     border: none;
@@ -47,8 +47,8 @@ p{
 }
 
 .section-title{
-    font-size: 2.8rem;
-    font-weight: 800;
+    font-size: 3rem;
+    font-weight: 900;
     margin-bottom: 20px;
     line-height: 54px;
 }
