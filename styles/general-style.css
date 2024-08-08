@@ -40,6 +40,7 @@ p{
     border-radius: 50px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .text-center{
